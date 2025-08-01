@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: retr0 <retr0@student.42.fr>                +#+  +:+       +#+        */
+/*   By: psilva-p <psilva-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/31 23:03:13 by retr0             #+#    #+#             */
-/*   Updated: 2025/07/31 23:56:59 by retr0            ###   ########.fr       */
+/*   Updated: 2025/08/01 11:57:36 by psilva-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdio.h>
 
-void	ft_div_mod(int	a, int	b, int	*div, int	*mod)
+void	ft_div_mod(int a, int b, int *div, int *mod)
 {
 	*div = a / b;
 	*mod = a % b;

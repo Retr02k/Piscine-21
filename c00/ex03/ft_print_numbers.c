@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: psilva-p <psilva-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/29 18:04:24 by psilva-p          #+#    #+#             */
-/*   Updated: 2025/07/29 18:07:12 by psilva-p         ###   ########.fr       */
+/*   Created: 2025/08/01 10:42:44 by psilva-p          #+#    #+#             */
+/*   Updated: 2025/08/01 10:42:56 by psilva-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_number(void)
+void	ft_print_numbers(void)
 {
 	int	i;
 
@@ -26,7 +26,7 @@ void	ft_print_number(void)
 /*
 int main ()
 {
-	ft_print_number();
+	ft_print_numbers();
 	write(1, "\n", 1);
 }
 */

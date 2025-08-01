@@ -1,25 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: psilva-p <psilva-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/29 14:32:33 by psilva-p          #+#    #+#             */
-/*   Updated: 2025/07/29 15:03:45 by psilva-p         ###   ########.fr       */
+/*   Created: 2025/08/01 12:30:30 by psilva-p          #+#    #+#             */
+/*   Updated: 2025/08/01 12:39:54 by psilva-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <stdio.h>
 
-void	ft_putchar(char c)
+int	ft_strlen(char	*str)
 {
-	write(1, &c, 1);
+	int	counter;
+
+	counter = 0;
+	while (str[counter])
+		counter++;
+	return (counter);
 }
 /*
-int	main(void)
+int main ()
 {
-	ft_putchar('b');
-	ft_putchar('\n');
+printf("the number of chars is: %i!\n", ft_strlen("ola"));
+printf("the number of chars is: %i!\n", ft_strlen("adeus"));
+printf("the number of chars is: %i!\n", ft_strlen("Hello World!"));
+printf("the number of chars is: %i!\n", ft_strlen("dattebayo Sasuke!"));
 }
 */

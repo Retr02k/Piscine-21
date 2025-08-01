@@ -1,25 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: psilva-p <psilva-p@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/29 14:32:33 by psilva-p          #+#    #+#             */
-/*   Updated: 2025/07/29 15:03:45 by psilva-p         ###   ########.fr       */
+/*   Created: 2025/07/31 15:37:53 by psilva-p          #+#    #+#             */
+/*   Updated: 2025/07/31 17:30:26 by psilva-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <stdio.h>
 
-void	ft_putchar(char c)
+void	ft_ultimate_ft(int	*********nbr)
 {
-	write(1, &c, 1);
+	*********nbr = 42;
 }
 /*
-int	main(void)
+int main ()
 {
-	ft_putchar('b');
-	ft_putchar('\n');
+	int	a = 0;
+	int	*b = &a;
+	int	**c = &b;
+	int	***d = &c;
+	int	****e = &d;
+	int	*****f = &e;
+	int	******g = &f;
+	int	*******h = &g;
+	int	********i = &h;
+	int	*********j = &i;
+
+	printf("%i\n", *********j);
+	ft_ultimate_ft(j);
+	printf("%i\n", *********j);
 }
 */
